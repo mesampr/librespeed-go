@@ -1,7 +1,7 @@
 # bind address, use empty string to bind to all interfaces
 bind_address=""
 # backend listen port
-listen_port=8989
+listen_port=443
 # change the base URL
 # url_base="/librespeed"
 # proxy protocol port, use 0 to disable
@@ -16,7 +16,7 @@ ipinfo_api_key=""
 assets_path=""
 
 # password for logging into statistics page
-statistics_password="PASSWORD"
+statistics_password="PASSWORD55"
 # redact IP addresses
 redact_ip_addresses=false
 
@@ -33,7 +33,7 @@ database_file="speedtest.db"
 
 # TLS and HTTP/2 settings. TLS is required for HTTP/2
 enable_tls=false
-enable_http2=false
+enable_http2=true
 
 # if you use HTTP/2 or TLS, you need to prepare certificates and private keys
 # tls_cert_file="cert.pem"
